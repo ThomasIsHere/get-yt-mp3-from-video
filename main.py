@@ -26,13 +26,13 @@ def download_youtube_video(url, output_path='.', audio_only=False):
 
 def main():
     # enter YT video URL to get mp3
-    video_url = 'https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXX'  
+    video_url = 'https://www.youtube.com/watch?v=xxxxxxxxx'  
     
     # set path to directory
-    output_path = r'C:\X\X'
+    output_path = r'/home/thomas/Downloads'
 
     file_directory = os.path.join(output_path)
-    download_youtube_video(video_url, file_directory, True)
+    download_youtube_video(video_url, file_directory, False)
 
 
 if __name__ == '__main__':
