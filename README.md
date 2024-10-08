@@ -1,5 +1,5 @@
 # Presentation
-Small script just to download mp3 from YT videos
+Small script just to download mp3 or mp4 from YT videos
 Not for commercial use
 # Install requirements
 On linux avoid this error message while installing requirements in virtualenv:
